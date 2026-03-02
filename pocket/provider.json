@@ -35,4 +35,10 @@
     "identityHistory": [],
     "url": "https://provider-ui.easy2stake.com"
   }
+  {                                                                                                                                                                              
+    "name": "BoilerBlockchain",                                                                                                                                                             
+    "identity": "025c1c8bb1a3d37832ff18bb2cbcb9675d3264fe9621274c6998550cf6a6c50ff2",                                                                                            
+    "identityHistory": [],                                                                                                                                                       
+    "url": "https://igniter.pyras.org"                                                                                                                                           
+  }  
 ]
