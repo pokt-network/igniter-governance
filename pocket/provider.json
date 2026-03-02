@@ -28,5 +28,11 @@
     "identity": "03df4159adf6dc7809a94f882abff545c838944040e4c40bb78a657ca30b60aab1",
     "identityHistory": [],
     "url": "https://stake.kalorius.tech"
+  },
+  {
+    "name": "Easy2stake",
+    "identity": "02e2913bfd1e5b16c9a1e88af3669ff7bbb837fb3882d0fac4c33fb068db97e6f4",
+    "identityHistory": [],
+    "url": "https://provider-ui.easy2stake.com"
   }
 ]
