@@ -1,0 +1,31 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Middleman List",
+  "description": "List of Igniter staking middlemen",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "required": ["name", "identity", "identityHistory"],
+    "additionalProperties": false,
+    "properties": {
+      "name": {
+        "type": "string",
+        "minLength": 1,
+        "description": "Middleman display name"
+      },
+      "identity": {
+        "type": "string",
+        "pattern": "^(02|03)[0-9a-f]{64}$",
+        "description": "Compressed secp256k1 public key (66 hex characters)"
+      },
+      "identityHistory": {
+        "type": "array",
+        "items": {
+          "type": "string",
+          "pattern": "^(02|03)[0-9a-f]{64}$"
+        },
+        "description": "Previous identity public keys"
+      }
+    }
+  }
+}

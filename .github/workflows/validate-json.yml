@@ -1,0 +1,29 @@
+name: Validate JSON
+
+on:
+  pull_request:
+    paths:
+      - "*/provider.json"
+      - "*/middleman.json"
+      - "schemas/**"
+      - ".github/scripts/validate-json.py"
+      - ".github/workflows/validate-json.yml"
+  push:
+    branches: [main]
+    paths:
+      - "*/provider.json"
+      - "*/middleman.json"
+      - "schemas/**"
+      - ".github/scripts/validate-json.py"
+      - ".github/workflows/validate-json.yml"
+
+jobs:
+  validate:
+    name: Validate JSON files
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Validate JSON syntax, schema, and formatting
+        run: python3 .github/scripts/validate-json.py

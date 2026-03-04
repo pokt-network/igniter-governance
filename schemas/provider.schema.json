@@ -1,0 +1,37 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Provider List",
+  "description": "List of Igniter staking providers",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "required": ["name", "identity", "identityHistory", "url"],
+    "additionalProperties": false,
+    "properties": {
+      "name": {
+        "type": "string",
+        "minLength": 1,
+        "description": "Provider display name"
+      },
+      "identity": {
+        "type": "string",
+        "pattern": "^(02|03)[0-9a-f]{64}$",
+        "description": "Compressed secp256k1 public key (66 hex characters)"
+      },
+      "identityHistory": {
+        "type": "array",
+        "items": {
+          "type": "string",
+          "pattern": "^(02|03)[0-9a-f]{64}$"
+        },
+        "description": "Previous identity public keys"
+      },
+      "url": {
+        "type": "string",
+        "format": "uri",
+        "pattern": "^https://",
+        "description": "Provider URL (must be HTTPS)"
+      }
+    }
+  }
+}
