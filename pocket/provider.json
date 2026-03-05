@@ -40,5 +40,23 @@
     "identity": "025c1c8bb1a3d37832ff18bb2cbcb9675d3264fe9621274c6998550cf6a6c50ff2",
     "identityHistory": [],
     "url": "https://igniter.pyras.org"
+  },
+  {
+    "name": "Nodefleet",
+    "identity": "03052ccec44479a54bb793611a57080dfc932bdeb1749553fed5fde2684a453aa4",
+    "identityHistory": [],
+    "url": "https://igniter.nodefleet.org"
+  },
+  {
+    "name": "Poktpool",
+    "identity": "0317c59dec4f0d0893217b52d65fde5c9e4bc118c0961de10ba4db58d86eecf2a6",
+    "identityHistory": [],
+    "url": "https://igniter.poktpool.com"
+  },
+  {
+    "name": "WeaversNodes",
+    "identity": "0317c59dec4f0d0893217b52d65fde5c9e4bc118c0961de10ba4db58d86eecf2a6",
+    "identityHistory": [],
+    "url": "https://igniter.weaversnodes.com"
   }
 ]
