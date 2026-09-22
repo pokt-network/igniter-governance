@@ -90,9 +90,9 @@
     "url": "https://igniter.sgtstake.com/"
   },
   {
-  "name": "NodesHub",
-  "identity": "03b4c19db631e49d47cbeaefc9fd3f73006c37449739ef111031281b8311789105",
-  "identityHistory": [],
-  "url": "https://igniter.pocket-nodeshub.com"
+    "name": "NodesHub",
+    "identity": "03b4c19db631e49d47cbeaefc9fd3f73006c37449739ef111031281b8311789105",
+    "identityHistory": [],
+    "url": "https://igniter.pocket-nodeshub.com"
   }
 ]
