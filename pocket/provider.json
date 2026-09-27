@@ -94,5 +94,11 @@
     "identity": "03b4c19db631e49d47cbeaefc9fd3f73006c37449739ef111031281b8311789105",
     "identityHistory": [],
     "url": "https://igniter.pocket-nodeshub.com"
+  },
+  {
+    "name": "HostDeFi",
+    "identity": "022dc0d4300ce9987826f64c847bfb8d0be215e9dce1474313aba638a6c414f358",
+    "identityHistory": [],
+    "url": "https://igniter.hostdefi.com"
   }
 ]
